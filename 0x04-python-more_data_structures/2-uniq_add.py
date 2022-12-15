@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-
-
 def uniq_add(my_list=[]):
     """
     A function that adds all unique
@@ -12,4 +10,4 @@ def uniq_add(my_list=[]):
         if num not in new_list:
             sum += num
             new_list.append(num)
-    return 
+    return
